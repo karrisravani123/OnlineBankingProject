@@ -23,14 +23,14 @@ public class Account {
 		driver.findElement(By.xpath("//button[text()='Sign In']")).click();
 		driver.findElement(By.xpath("  //p[normalize-space()='Account Management']")).click();
 		driver.findElement(By.xpath( "  //p[text()='Manage Account']")).click();
-		
+		//logout
 	
 Thread.sleep(3000);
 driver.findElement(By.xpath("//span[text()='Adminstrator Admin']")).click();
 driver.findElement(By.xpath("//a[@class=\"dropdown-item\"][2]")).click();
 driver.findElement(By.xpath("//input[@name='username']")).sendKeys("admin");
 driver.findElement(By.xpath("//input[@name='username']")).sendKeys("admin123");
-
+//Go To Website
 driver.findElement(By.xpath("//a[text()='Go to Website']")).click();
 
 driver.findElement(By.xpath("//input[@name='email']")).sendKeys("krohinibala2141998@gmail.com");
