@@ -24,7 +24,8 @@ public class Account {
 		driver.findElement(By.xpath("  //p[normalize-space()='Account Management']")).click();
 		driver.findElement(By.xpath( "  //p[text()='Manage Account']")).click();
 		//logout
-	
+	//Clickble option
+		//i want click
 Thread.sleep(3000);
 driver.findElement(By.xpath("//span[text()='Adminstrator Admin']")).click();
 driver.findElement(By.xpath("//a[@class=\"dropdown-item\"][2]")).click();
