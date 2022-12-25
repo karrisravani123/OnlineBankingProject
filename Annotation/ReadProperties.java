@@ -15,6 +15,7 @@ public void readprop() throws IOException {
 	//properties Option
 	Properties p=new Properties();
 	p.load(fis);
+	//AdminURL
 	System.out.println(p.getProperty("AdminURL"));
 	System.out.println(p.getProperty("UserURL"));
 //logout
