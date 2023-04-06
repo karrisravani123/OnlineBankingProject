@@ -1,0 +1,13 @@
+public class ReadProperties {
+	public static String readprop(String keyName) throws IOException {
+		FileInputStream fis=new FileInputStream(new File("src/test/resources/ev.properties"));
+		
+		Properties p=new Properties();
+		p.load(fis);
+		System.out.println(p.getProperty("AdminURL"));
+		System.out.println(p.getProperty("UserURL"));
+		return p.getProperty(keyName);
+
+	}
+
+}
